@@ -1,0 +1,61 @@
+@media only screen and (max-width: viewportSize (in pixels)) {
+    /* applied CSS styling */
+}
+
+
+/* for mobile view */
+@media only screen and (max-width: 425px) {}
+
+
+/* // for tablet view */
+@media only screen and (max-width: 769px) {
+
+    /* banner  */
+    .banner .btn {
+        bottom: 15px;
+    }
+
+    .banner .btn button {
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+
+    /* w & b vision  */
+    .wbvision {
+        margin: 0px 10px;
+    }
+
+    .wbvision h3 {
+
+        font-size: 26px;
+        margin-top: 16px;
+        margin-bottom: 10px;
+    }
+
+    .wbvision p {
+
+        font-size: 22px;
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Collections  */
+    .collection {
+        margin: 0 10px;
+        
+    }
+    .collection .cards {
+        flex-wrap: wrap;
+    }
+
+    .collection .cards .card {
+        width: 49%;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+/* // for laptop view */
+@media only screen and (max-width: 1026px) {}
