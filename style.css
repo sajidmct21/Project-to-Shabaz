@@ -1,82 +1,141 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 .announcement-bar {
-    background: var(--button, #DB6720);
+  background: var(--button, #DB6720);
 }
+
 .announcement-bar p {
-    color: var(--Headings-And-Text, #F7F7F7);
-    text-align: center;
-    font-family: "Futura Md BT";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0px;
+  color: var(--Headings-And-Text, #F7F7F7);
+  text-align: center;
+  font-family: "Futura Md BT";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
 }
 
 
 
 .headers {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px 120px;
-  }
-  .headers .logo img {
-    width: 100%;
-    height: auto;
-  }
-  .headers .menu {
-    display: flex;
-    align-items: center;
-  }
-  nav ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    align-items: center;
-  }
-  .headers .menu ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 120px;
+}
 
-    margin-inline: 30px;
-  }
-  .headers .menu ul li a {
-    text-decoration: none;
-    font-family: Futura Md BT;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #1C1D1D;
-  }
-  .headers nav .icon {
-    align-items: center;
-    font-size: 30px;
-    margin-right: 12px;
-    display: none;
-  }
+.headers .logo img {
+  width: 100%;
+  height: auto;
+}
 
-  .headers .languages span {
-    font-family: Futura Md BT;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    margin-right: 5px;
-  }
-  .headers .languages .d {
-    margin-left: 10px;
-  }
-  .headers .icons i {
-    margin-inline: 10px;
-  }
+.headers .menu {
+  display: flex;
+  align-items: center;
+}
 
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
 
- 
+.headers .menu ul li {
+
+  margin-inline: 30px;
+}
+
+.headers .menu ul li a {
+  text-decoration: none;
+  font-family: Futura Md BT;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #1C1D1D;
+}
+
+.headers nav .icon {
+  align-items: center;
+  font-size: 30px;
+  margin-right: 12px;
+  display: none;
+}
+
+.headers .languages span {
+  font-family: Futura Md BT;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-right: 5px;
+}
+
+.headers .languages .d {
+  margin-left: 10px;
+}
+
+.headers .icons i {
+  margin-inline: 10px;
+}
+
+/* Hero Section  */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.slide {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20%;
+  /* border: 2px solid green; */
+  text-align: center;
+
+}
+
+.slide button {
+ padding: 10px 30px;
+ background: #DB6720;
+ border: none;
+ margin: auto;
+ margin-bottom: 40px;
+ color: #FFFEFD;
+ text-transform: uppercase;
+ font-family: Poppins;
+font-size: 13px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.lines {
+  display: flex;
+}
+
+.lines div {
+  width: 45%;
+ background: #6C696B;
+  height: 5px;
+}
+
+.lines .right {
+  margin-left: 10px;
+}
