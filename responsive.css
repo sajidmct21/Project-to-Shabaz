@@ -61,4 +61,29 @@
       padding-left: 20px;
       padding-right: 20px;
     }
+    /* Check-out section  */
+.check-out{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.check-out h1{
+ 
+font-size: 32px;
+margin-top: 30px;
+margin-bottom: 40px;
+}
+.check-out .cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.check-out .cards .card{
+  width: 100%;
+  margin: 5px;
+}
+.check-out .cards .card img{
+ width: 100%;
+ height: auto;
+}
+
   }
