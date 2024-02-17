@@ -110,19 +110,19 @@ nav ul {
 }
 
 .slide button {
- padding: 10px 30px;
- background: #DB6720;
- border: none;
- margin: auto;
- margin-bottom: 40px;
- color: #FFFEFD;
- text-transform: uppercase;
- font-family: Poppins;
-font-size: 13px;
-font-weight: 700;
-line-height: 27px;
-letter-spacing: 0em;
-text-align: center;
+  padding: 10px 30px;
+  background: #DB6720;
+  border: none;
+  margin: auto;
+  margin-bottom: 40px;
+  color: #FFFEFD;
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
 
 }
 
@@ -132,10 +132,36 @@ text-align: center;
 
 .lines div {
   width: 45%;
- background: #6C696B;
+  background: #6C696B;
   height: 5px;
 }
 
 .lines .right {
   margin-left: 10px;
+}
+
+/* Wordth-worth section  */
+.word-worth {
+  text-align: center;
+}
+
+.word-worth h1 {
+  padding: 26px 0 20px 0;
+  font-family: Futura Hv BT;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.word-worth p {
+  font-family: Futura Lt BT;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-left: 170px;
+  padding-right: 170px;
 }

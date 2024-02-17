@@ -46,4 +46,19 @@
       padding: 5px 10px;
         
      }
+
+     /* Word-worth section  */
+    
+    .word-worth h1 {
+      padding: 26px 0 20px 0;
+      font-size: 32px;
+      
+    }
+    
+    .word-worth p {
+      
+      font-size: 25px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
   }
