@@ -1,3 +1,7 @@
+@font-face {
+ font-family: FuturaMdBT; 
+ src: url(assets/fonts/futura_medium_bt.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +15,7 @@
 .announcement-bar p {
   color: var(--Headings-And-Text, #F7F7F7);
   text-align: center;
-  font-family: "Futura Md BT";
+  font-family: "FuturaMdBT";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -57,7 +61,7 @@ nav ul {
 
 .headers .menu ul li a {
   text-decoration: none;
-  font-family: Futura Md BT;
+  font-family: FuturaMdBT;
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
@@ -74,7 +78,7 @@ nav ul {
 }
 
 .headers .languages span {
-  font-family: Futura Md BT;
+  font-family: FuturaMdBT;
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
@@ -91,289 +95,3 @@ nav ul {
   margin-inline: 10px;
 }
 
-/* Hero Section  */
-.hero {
-  position: relative;
-}
-
-.hero img {
-  width: 100%;
-  height: auto;
-}
-
-.slide {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 20%;
-  /* border: 2px solid green; */
-  text-align: center;
-
-}
-
-.slide button {
-  padding: 10px 30px;
-  background: #DB6720;
-  border: none;
-  margin: auto;
-  margin-bottom: 40px;
-  color: #FFFEFD;
-  text-transform: uppercase;
-  font-family: Poppins;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: center;
-
-}
-
-.lines {
-  display: flex;
-}
-
-.lines div {
-  width: 45%;
-  background: #6C696B;
-  height: 5px;
-}
-
-.lines .right {
-  margin-left: 10px;
-}
-
-/* Wordth-worth section  */
-.word-worth {
-  text-align: center;
-}
-
-.word-worth h1 {
-  padding: 26px 0 20px 0;
-  font-family: Futura Hv BT;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: center;
-}
-
-.word-worth p {
-  font-family: Futura Lt BT;
-  font-size: 27px;
-  font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: center;
-  padding-left: 170px;
-  padding-right: 170px;
-}
-
-/* Check-out section  */
-.check-out {
-  margin-left: 120px;
-  margin-right: 120px;
-}
-
-.check-out h1 {
-  font-family: Futura Md BT;
-  font-size: 32px;
-  font-weight: 400;
-  line-height: 38px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #000;
-  margin-top: 30px;
-  margin-bottom: 40px;
-}
-
-.check-out .cards {
-  display: flex;
-  justify-content: space-between;
-}
-
-.check-out .cards .card {
-  width: 24.5%;
-  text-align: center;
-  box-shadow: 0px 0px 4px 0px #00000040;
-
-}
-
-.check-out .cards .card img {
-  width: 100%;
-  height: auto;
-}
-
-.check-out .cards .card h2 {
-  font-family: Futura Md BT;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.check-out .cards .card button {
-  font-family: Poppins;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 10px 30px;
-  margin: 20px 0;
-  background: #DB6720;
-  color: #FFFEFD;
-  border: none;
-}
-
-/* Testinomial Section  */
-.testinomial {
-  margin-left: 120px;
-  margin-right: 120px;
-  margin-top: 163px;
-  text-align: center;
-}
-
-.testinomial .cards {
-  display: flex;
-}
-
-.testinomial .cards .card {
-  width: 33%;
-  transition: transform 0.5s;
-  box-shadow: 0px 0px 4px 0px #00000040;
-  border-radius: 24px;
-}
-
-/* .testinomial .cards .card:hover {
-  transform: scale(1.2);
-  box-shadow: 0px 4px 16px 0px #00000080;
-  background: #F7F7F7;
-  font-size: 24px;
-} */
-
-.testinomial .cards .card i {
-  margin-top: 40px;
-  color: #DB6720;
-}
-
-.testinomial .cards .card .para {
-  margin-top: 40px;
-  margin-left: 30px;
-  margin-right: 30px;
-  font-family: 'Futura Lt BT';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-
-  /* Text Color */
-  color: #1C1D1D;
-}
-
-.testinomial .cards .card img {
-  margin-top: 40px;
-  margin-bottom: 10px;
-  border: 1px solid #1F1F1F;
-  border-radius: 73px;
-
-}
-
-.testinomial .cards .card .name {
-  font-family: 'Futura Bk BT';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  text-align: center;
-
-  /* Headings */
-  color: #1F1F1F;
-
-
-}
-
-.testinomial .cards .card .city {
-  margin-top: 10px;
-  padding-bottom: 36px;
-  font-family: Futura Lt BT;
-  font-size: 8px;
-  font-weight: 400;
-  line-height: 10px;
-  letter-spacing: 0em;
-  text-align: center;
-}
-
-.testinomial .circles {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.testinomial .circles .circle {
-  width: 17px;
-  height: 17px;
-  border-radius: 50%;
-  background: #6C696B;
-  margin-inline: 5px;
-}
-
-.testinomial .circles .circle.active {
-  background-color: #DB6720;
-}
-
-/* Text-banner  */
-.text-banner {
-  background-color: #DB6720;
-  color: white;
-}
-
-.text-banner .banners {
-  margin: 0px 120px;
-  padding-top: 20px;
-  text-align: center;
-  display: flex;
-}
-
-.text-banner .banners .banner {
-  width: 32%;
-}
-
-.text-banner .banners .banner .numbers {
-  margin-top: 20px;
-  margin-bottom: 10px;
-
-  font-family: Futura Md BT;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: center;
-
-}
-
-.text-banner .banners .banner .text {
-  margin-left: 40px;
-  margin-right: 40px;
-
-  font-family: Futura Lt BT;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: center;
-}
-
-.text-banner .banners .line {
-  width: 150px;
-  height: 0px;
-  margin-top: 100px;
-  transform: rotate(90deg);
-  border: 1px solid white;
-}
