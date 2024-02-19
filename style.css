@@ -29,6 +29,9 @@
   justify-content: space-between;
   margin: 10px 120px;
 }
+.headers .logo{
+  width: 23%;
+}
 
 .headers .logo img {
   width: 100%;

@@ -1,9 +1,11 @@
 @media only screen and (max-width: 1400px) {
   .headers {
     justify-content: space-between;
-    margin: 10px 20px;
+    margin: 0;
   }
-
+  .headers .logo{
+    width: 40%;
+  }
   .headers .logo {
     order: 1;
   }
@@ -17,7 +19,8 @@
   }
 
   .headers .languages {
-    display: none;
+    /* display: none; */
+    order: 1;
   }
 
   .headers .menu .icon {
@@ -155,6 +158,6 @@
   .text-banner .banners .line{
     display: none;
   }
-
+ 
 
 }
