@@ -2,9 +2,11 @@
   .headers {
     margin: 0px 10px;
   }
-  .headers .logo{
-    width: 40%;
+
+  .headers .logo {
+    width: 50%;
   }
+
   .headers .logo {
     order: 1;
   }
@@ -37,7 +39,7 @@
     left: 0;
     background-color: rgb(218, 208, 208);
     width: 100%;
-    height: 240px;
+    height: 260px;
     text-align: center;
     padding: 0;
     gap: 22px;
@@ -54,7 +56,19 @@
   .slide button {
     margin-bottom: 15px;
     padding: 5px 10px;
+  }
 
+  /* Hero Section  */
+  .hero .navigation {
+    left: 55%;
+    transform: translateX(-55%);
+    bottom: 10px;
+  }
+
+  .hero .navigation button {
+    padding: 5px 10px;
+    font-family: Poppins;
+    margin-bottom: 5px;
   }
 
 }
