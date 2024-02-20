@@ -75,6 +75,9 @@ nav ul {
   font-size: 30px;
   margin-right: 12px;
   display: none;
+  width: 20px;
+  height: 20px;
+
 }
 
 .headers .languages span {
