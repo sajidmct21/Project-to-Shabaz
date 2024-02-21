@@ -59,16 +59,19 @@
   }
 
   /* Hero Section  */
+  /* dots are lines */
+  .flickity-page-dots .dot {
+    height: 4px;
+    width: 100px;
+    margin: 0px;
+  }
   .hero .navigation {
     left: 55%;
     transform: translateX(-55%);
-    bottom: 10px;
   }
-
   .hero .navigation button {
     padding: 5px 10px;
-    font-family: Poppins;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
   }
 
 }

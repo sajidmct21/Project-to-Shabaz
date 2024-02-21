@@ -112,7 +112,7 @@ nav ul {
 
 .hero img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .hero .navigation {
@@ -137,4 +137,31 @@ nav ul {
   text-align: center;
   text-transform: uppercase;
 
+}
+
+.main-carousel {
+  position: relative;
+  width: 100%;
+}
+
+.main-carousel .carousel-cell {
+  width: 100%;
+}
+
+/* position dots in carousel */
+.flickity-page-dots {
+  bottom: 20px;
+}
+
+/* dots are lines */
+.flickity-page-dots .dot {
+  height: 4px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 0;
+}
+
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: #6C696B;
 }

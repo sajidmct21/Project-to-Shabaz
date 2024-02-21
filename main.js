@@ -17,3 +17,4 @@ let icon = document.querySelector(".icon");
                 document.getElementById("bar").src = images[0];
             }
         })
+
