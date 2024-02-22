@@ -1,20 +1,14 @@
-const images = ['assets/menu-icon.svg','assets/cross.svg'];
-let togle = true;
+const images = ["assets/menu-icon.svg", "assets/cross.svg"];
+let icon = document.querySelector("#bars");
+let nav = document.querySelector("nav");
 
-
-
-let icon = document.querySelector(".icon");
-        let ul = document.querySelector("ul");
-        icon.addEventListener("click", ()=>{
-            ul.classList.toggle("showData");
-            // console.log(ul);
-
-            if(ul.className == "showData"){
-                document.getElementById("bar").src= images[1];
-                
-            }
-            else{
-                document.getElementById("bar").src = images[0];
-            }
-        })
-
+icon.addEventListener("click", () => {
+  nav.classList.toggle("showData");
+  console.log(nav);
+  console.log(icon);
+  if (nav.className == "showData") {
+    document.getElementById("bars").src = images[1];
+  } else {
+    document.getElementById("bars").src = images[0];
+  }
+});
