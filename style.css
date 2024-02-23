@@ -25,7 +25,7 @@
   color: var(--Headings-And-Text, #F7F7F7);
   text-align: center;
   font-family: "FuturaMdBT";
-  font-size: 0.9rem;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -42,7 +42,7 @@
 }
 
 .header .logo {
-  width: 250px;
+  width: 200px;
   height: auto;
 }
 
@@ -74,7 +74,7 @@ nav ul {
 }
 
 nav ul li {
-  margin-top: 10px;
+  margin: 10px;
 }
 
 nav ul a {
@@ -109,4 +109,56 @@ nav .languages div {
   height: auto;
   /* border: 2px solid red; */
   z-index: 1;
+}
+
+/* Hero Section  */
+.hero {
+  position: relative;
+}
+
+.hero .carousel-cell {
+  width: 100%;
+}
+
+.hero .carousel-cell img {
+  width: 100%;
+  height: auto;
+}
+
+.flickity-page-dots {
+  bottom: 10px;
+}
+
+/* dots are lines */
+.flickity-page-dots .dot {
+  height: 4px;
+  width: 60px;
+  margin: 5px;
+  border-radius: 0;
+}
+
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: #6C696B;
+}
+
+.hero .btn {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%);
+}
+
+.hero .btn button {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  background: #DB6720;
+  border: none;
+  color: #FFFEFD;
+  text-transform: uppercase;
+  padding: 5px 10px;
 }

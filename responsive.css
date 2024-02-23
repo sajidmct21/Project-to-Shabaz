@@ -3,14 +3,47 @@
   .header .logo {
     width: 300px;
   }
+
+  /* dots are lines */
+.flickity-page-dots .dot {
+  width: 70px;
+  margin: 7px;
+}
+/* hero button  */
+  .hero .btn button {
+    font-weight: 600;
+    padding: 5px 10px;
+  }
+
+  .hero .btn {
+    bottom: 40px;
+  }
 }
 
 
 @media only screen and ((min-width:750px)){
 
+  .announcement-bar p{
+    font-size: 14px;
+  }
   /* Mobile Icon  */
   .header .menu-icon {
     width: 25px;
+  }
+
+/* dots are lines */
+.flickity-page-dots .dot {
+  width: 100px;
+  margin: 10px;
+}
+  /* hero button  */
+  .hero .btn button {
+    font-weight: 700;
+    padding: 10px 30px;
+  }
+
+  .hero .btn {
+    bottom: 50px;
   }
 }
 
@@ -52,7 +85,7 @@
   }
 }
 @media only screen and (min-width:1400px){
-  nav ul li{
+  nav ul li{  
     margin-inline: 25px;
   }
 }

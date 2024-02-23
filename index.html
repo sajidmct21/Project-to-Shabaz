@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Shopify Store</title>
   <!-- CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="assets/flickity/flickity.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
 
@@ -74,13 +74,26 @@
 
     </div>
   </div>
-
+  <!-- Hero Section  -->
+  <div class="hero">
+    <div class="main-carousel">
+      <div class="carousel-cell">
+        <img src="assets/hero.png" alt="slide 1">
+      </div>
+      <div class="carousel-cell">
+        <img src="assets/Blog.png" alt="slide 2">
+      </div>
+    </div>
+    <div class="btn">
+      <button class="button">Shop now</button>
+    </div>
+  </div>
 
 
   <!-- Javascript Link  -->
   <script src="main.js"></script>
   <!-- JavaScript Flickity -->
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="assets/flickity/flickity-javascript.js"></script>
   <script>
     $(document).ready(function () {
       $('.hero .main-carousel').flickity({
