@@ -3,10 +3,12 @@
 @font-face {
   font-family: "Futura Md BT";
   src: url(assets/fonts/futura_medium_bt.ttf);
-
+}
+@font-face {
   font-family: "Futura Hv BT";
   src: url(assets/fonts/Futura_Heavy_font.ttf);
-
+}
+@font-face {
   font-family: "Futura Lt BT";
   src: url(assets/fonts/futura_light_bt.ttf);
 }
