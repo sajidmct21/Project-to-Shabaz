@@ -24,7 +24,7 @@
 .announcement-bar p {
   color: var(--Headings-And-Text, #F7F7F7);
   text-align: center;
-  font-family: "FuturaMdBT";
+  font-family: "Futura Md BT";
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -79,7 +79,7 @@ nav ul li {
 
 nav ul a {
   text-decoration: none;
-  font-family: Futura Md BT;
+  font-family: "Futura Md BT";
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
@@ -96,7 +96,7 @@ nav .languages{
   padding-top: 0;
 }
 nav .languages div span{
-  font-family: Futura Md BT;
+  font-family: "Futura Md BT";
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
@@ -185,7 +185,7 @@ nav .languages div {
 }
 
 .w-b h1 {
-  font-family: Futura Hv BT;
+  font-family: "Futura Hv BT";
   font-size: 20px;
   font-weight: 400;
   line-height: 27px;
@@ -195,7 +195,7 @@ nav .languages div {
 }
 
 .w-b p {
-  font-family: Futura Lt BT;
+  font-family: "Futura Lt BT";
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
@@ -212,7 +212,7 @@ nav .languages div {
 }
 
 .collections h2 {
-  font-family: Futura Md BT;
+  font-family: "Futura Md BT";
   font-size: 22px;
   font-weight: 400;
   line-height: 38px;
@@ -238,7 +238,7 @@ nav .languages div {
 .collections .cards .card h5 {
   margin-top: 15px;
   margin-bottom: 15px;
-  font-family: Futura Md BT;
+  font-family: "Futura Md BT";
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
