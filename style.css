@@ -299,10 +299,11 @@ nav .languages div {
   box-shadow: 0px 0px 4px 0px hsla(0, 0%, 0%, 0.25);
   border-radius: 20px;
 }
-.testinomials .t-cards .t-card:hover{
+
+.testinomials .t-cards .t-card:hover {
   box-shadow: 0px 4px 16px 0px hsla(0, 0%, 0%, 0.5);
   background: hsla(0, 0%, 97%, 1);
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 }
 
 .testinomials .t-cards .t-card .para {
@@ -335,6 +336,51 @@ nav .languages div {
   font-size: 8px;
   font-weight: 400;
   line-height: 10px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.testinomials .dots{
+  display: none;
+}
+
+/* text banner  */
+.text-banner {
+  width: 100%;
+  color: white;
+  background: hsla(23, 75%, 49%, 1);
+}
+
+.text-banner .banner-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.text-banner .banner-cards .line{
+  display: none;
+}
+
+.text-banner .banner-cards .banner-card {
+  margin: 20px;
+}
+
+.text-banner .banner-cards .banner-card .numbers {
+  margin-top: 20px;
+  font-family: "Futura Md BT";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.text-banner .banner-cards .banner-card .b-text {
+  margin-top: 10px;
+  font-family: "Futura Lt BT";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
   letter-spacing: 0em;
   text-align: center;
 

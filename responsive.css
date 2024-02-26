@@ -106,6 +106,53 @@
 .testinomials .t-cards .t-card{
   margin-inline: 5px;
 }
+.testinomials .dots{
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+/* text banner  */
+.text-banner {
+  width: 100%;
+  color: white;
+  background: hsla(23, 75%, 49%, 1);
+}
+
+.text-banner .banner-cards {
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: row;
+}
+.text-banner .banner-cards .line{
+  display: flex;
+  margin-top: 50px;
+}
+.text-banner .banner-cards .banner-card {
+  margin: 20px;
+  width: 33%;
+}
+
+.text-banner .banner-cards .banner-card .numbers {
+  margin-top: 20px;
+  font-family: "Futura Md BT";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.text-banner .banner-cards .banner-card .b-text {
+  margin-top: 10px;
+  font-family: "Futura Lt BT";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
 }
 
 
@@ -117,6 +164,11 @@
   /* Testinomials  */
 .testinomials {
   margin: 50px 100px;
+}
+/* Banner-text  */
+.text-banner .banner-cards{
+  padding-left: 100px;
+  padding-right: 100px;
 }
 }
 
@@ -172,6 +224,11 @@
   /* Testinomials  */
 .testinomials {
   margin: 50px 120px;
+}
+/* Text-banner  */
+.text-banner .banner-cards .line{
+
+  margin-top: 30px;
 }
 }
 
