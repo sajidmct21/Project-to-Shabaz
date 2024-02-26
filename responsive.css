@@ -22,6 +22,12 @@
   }
 
   /*  W & B Section   */
+  /* Testinomials  */
+  .testinomials .t-cards .t-card .para {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
 
 }
 
@@ -88,6 +94,18 @@
     width: 49%;
     margin-top: 10px;
   }
+  /* Testinomials  */
+.testinomials {
+  margin: 50px 20px;
+}
+
+.testinomials .t-cards {
+  flex-direction: row;
+  width: 100%;
+}
+.testinomials .t-cards .t-card{
+  margin-inline: 5px;
+}
 }
 
 
@@ -96,6 +114,10 @@
   .showData {
     top: 120px;
   }
+  /* Testinomials  */
+.testinomials {
+  margin: 50px 100px;
+}
 }
 
 
@@ -147,6 +169,10 @@
     width: 24%;
     margin-top: 10px;
   }
+  /* Testinomials  */
+.testinomials {
+  margin: 50px 120px;
+}
 }
 
 

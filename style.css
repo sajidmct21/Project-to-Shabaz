@@ -4,13 +4,20 @@
   font-family: "Futura Md BT";
   src: url(assets/fonts/futura_medium_bt.ttf);
 }
+
 @font-face {
   font-family: "Futura Hv BT";
   src: url(assets/fonts/Futura_Heavy_font.ttf);
 }
+
 @font-face {
   font-family: "Futura Lt BT";
   src: url(assets/fonts/futura_light_bt.ttf);
+}
+
+@font-face {
+  font-family: "Futura Bk BT";
+  src: url(assets/fonts/Futura_Book_font.ttf);
 }
 
 * {
@@ -89,15 +96,18 @@ nav ul a {
   text-align: left;
   color: #1C1D1D;
 }
-nav .languages a{
+
+nav .languages a {
   text-decoration: none;
-  
+
 }
-nav .languages{
+
+nav .languages {
   margin-bottom: 15px;
   padding-top: 0;
 }
-nav .languages div span{
+
+nav .languages div span {
   font-family: "Futura Md BT";
   font-size: 14px;
   font-weight: 400;
@@ -106,12 +116,15 @@ nav .languages div span{
   text-align: left;
   color: #1C1D1D;
 }
+
 nav .languages div {
   margin-top: 10px;
 }
-.header .icons a{
+
+.header .icons a {
   text-decoration: none;
 }
+
 .header .icons svg {
   margin-inline: 0.35rem;
 }
@@ -228,11 +241,13 @@ nav .languages div {
   display: flex;
   flex-direction: column;
 }
-.collections .cards .card{
+
+.collections .cards .card {
   width: 100%;
   box-shadow: 0px 0px 4px 0px #00000040;
   margin-top: 15px;
 }
+
 .collections .cards .card img {
   width: 100%;
 }
@@ -262,4 +277,65 @@ nav .languages div {
   background-color: #DB6720;
   color: white;
   margin-bottom: 20px;
+}
+
+/* Testinomials  */
+.testinomials {
+  margin: 50px 40px;
+  text-align: center;
+}
+
+.testinomials .t-cards {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.testinomials .t-cards .t-card {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 4px 0px hsla(0, 0%, 0%, 0.25);
+  border-radius: 20px;
+}
+.testinomials .t-cards .t-card:hover{
+  box-shadow: 0px 4px 16px 0px hsla(0, 0%, 0%, 0.5);
+  background: hsla(0, 0%, 97%, 1);
+  transform: scale(1.1);
+}
+
+.testinomials .t-cards .t-card .para {
+  font-family: "Futura Lt BT";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.testinomials .t-cards .t-card img {
+  margin-top: 30px;
+}
+
+.testinomials .t-cards .t-card .name {
+  margin-top: 10px;
+  font-family: "Futura Bk BT";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.testinomials .t-cards .t-card .city {
+  margin-top: 10px;
+  font-family: "Futura Lt BT";
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0em;
+  text-align: center;
+
 }
