@@ -141,7 +141,7 @@
   <!-- Testinomials  -->
   <div class="testinomials">
     <div class="t-cards">
-      <div class="t-card">
+      <div class="t-card c-1">
         <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M11.1294 0L13.5437 7.06439H21.3563L15.0357 11.4304L17.45 18.4948L11.1294 14.1288L4.80893 18.4948L7.22315 11.4304L0.902637 7.06439H8.71522L11.1294 0Z"
@@ -172,7 +172,7 @@
         <p class="name">Rachel F.</p>
         <p class="city">City, Dubai</p>
       </div>
-      <div class="t-card">
+      <div class="t-card c-2">
         <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M11.1294 0L13.5437 7.06439H21.3563L15.0357 11.4304L17.45 18.4948L11.1294 14.1288L4.80893 18.4948L7.22315 11.4304L0.902637 7.06439H8.71522L11.1294 0Z"
@@ -203,7 +203,7 @@
         <p class="name">Rachel F.</p>
         <p class="city">City, Dubai</p>
       </div>
-      <div class="t-card">
+      <div class="t-card c-3">
         <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M11.1294 0L13.5437 7.06439H21.3563L15.0357 11.4304L17.45 18.4948L11.1294 14.1288L4.80893 18.4948L7.22315 11.4304L0.902637 7.06439H8.71522L11.1294 0Z"
@@ -237,11 +237,11 @@
     </div>
     <span class="dots">
       <svg width="87" height="17" viewBox="0 0 87 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="8.5" cy="8.5" r="8.5" fill="#6C696B"/>
-        <circle cx="43.5" cy="8.5" r="8.5" fill="#DB6720"/>
-        <circle cx="78.5" cy="8.5" r="8.5" fill="#6C696B"/>
-        </svg>
-        
+        <circle class="dot-1" cx="8.5" cy="8.5" r="8.5" fill="#6C696B" />
+        <circle class="dot-2" cx="43.5" cy="8.5" r="8.5" fill="#6C696B" />
+        <circle class="dot-3" cx="78.5" cy="8.5" r="8.5" fill="#6C696B" />
+      </svg>
+
     </span>
   </div>
 
@@ -298,10 +298,13 @@
       </div>
       <div class="banner-card">
         <svg width="44" height="40" viewBox="0 0 44 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M24.9222 4.31744L22 7.03236L19.0778 4.30966C11.8687 -2.93272 1.22405 3.54147 1.00455 10.92C0.718256 20.5311 13.9988 32.5616 22 38.147C30.0012 32.5616 43.2817 20.5292 42.9954 10.92C42.7759 3.54147 32.1313 -2.93272 24.9222 4.31744Z" stroke="#FFFEFD" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M37.5 14.6469C39.8907 10.264 35.6134 5.56347 31.5 5.85922" stroke="#FFFEFD" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-                  
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M24.9222 4.31744L22 7.03236L19.0778 4.30966C11.8687 -2.93272 1.22405 3.54147 1.00455 10.92C0.718256 20.5311 13.9988 32.5616 22 38.147C30.0012 32.5616 43.2817 20.5292 42.9954 10.92C42.7759 3.54147 32.1313 -2.93272 24.9222 4.31744Z"
+            stroke="#FFFEFD" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M37.5 14.6469C39.8907 10.264 35.6134 5.56347 31.5 5.85922" stroke="#FFFEFD" stroke-width="1.75"
+            stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+
         <p class="numbers">
           BUY ONE ,PLANT ONE
         </p>
@@ -358,6 +361,48 @@
         contain: true
       });
     })
+
+    // Text Banner Dots 
+
+    // Mouse Enter Card 1 
+     $('.c-1').hover(()=>{      
+      $('.dot-1').attr('fill','#DB6720');
+      $('.dot-2').attr('fill','#6C696B');
+      $('.dot-3').attr('fill','#6C696B');
+     })
+     // Mouse leave Card 1
+     $('.c-1').mouseleave(()=>{      
+      $('.dot-1').attr('fill','#6C696B');
+      $('.dot-2').attr('fill','#6C696B');
+      $('.dot-3').attr('fill','#6C696B');
+     })
+
+
+     // Mouse Enter Card 2
+     $('.c-2').hover(()=>{      
+      $('.dot-1').attr('fill','#6C696B');
+      $('.dot-2').attr('fill','#DB6720');
+      $('.dot-3').attr('fill','#6C696B');
+     })
+      // Mouse leave Card 2
+     $('.c-2').mouseleave(()=>{      
+      $('.dot-1').attr('fill','#6C696B');
+      $('.dot-2').attr('fill','#6C696B');
+      $('.dot-3').attr('fill','#6C696B');
+     })
+
+     // Mouse Enter Card 3
+     $('.c-3').hover(()=>{      
+      $('.dot-1').attr('fill','#6C696B');
+      $('.dot-2').attr('fill','#6C696B');
+      $('.dot-3').attr('fill','#DB6720');
+     })
+      // Mouse leave Card 3
+     $('.c-3').mouseleave(()=>{      
+      $('.dot-1').attr('fill','#6C696B');
+      $('.dot-2').attr('fill','#6C696B');
+      $('.dot-3').attr('fill','#6C696B');
+     })
   </script>
 </body>
 

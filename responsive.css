@@ -79,80 +79,89 @@
     margin-left: 70px;
     margin-right: 70px;
   }
+
   .collections h2 {
     font-size: 32px;
     margin-bottom: 40px;
     margin-top: 30px;
   }
+
   .collections .cards {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
   }
-  .collections .cards .card{
+
+  .collections .cards .card {
     width: 49%;
     margin-top: 10px;
   }
+
   /* Testinomials  */
-.testinomials {
-  margin: 50px 20px;
-}
+  .testinomials {
+    margin: 50px 20px;
+  }
 
-.testinomials .t-cards {
-  flex-direction: row;
-  width: 100%;
-}
-.testinomials .t-cards .t-card{
-  margin-inline: 5px;
-}
-.testinomials .dots{
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
-/* text banner  */
-.text-banner {
-  width: 100%;
-  color: white;
-  background: hsla(23, 75%, 49%, 1);
-}
+  .testinomials .t-cards {
+    flex-direction: row;
+    width: 100%;
+  }
 
-.text-banner .banner-cards {
-  padding-left: 10px;
-  padding-right: 10px;
-  flex-direction: row;
-}
-.text-banner .banner-cards .line{
-  display: flex;
-  margin-top: 50px;
-}
-.text-banner .banner-cards .banner-card {
-  margin: 20px;
-  width: 33%;
-}
+  .testinomials .t-cards .t-card {
+    margin-inline: 5px;
+  }
 
-.text-banner .banner-cards .banner-card .numbers {
-  margin-top: 20px;
-  font-family: "Futura Md BT";
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: center;
+  .testinomials .dots {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
 
-}
+  /* text banner  */
+  .text-banner {
+    width: 100%;
+    color: white;
+    background: hsla(23, 75%, 49%, 1);
+  }
 
-.text-banner .banner-cards .banner-card .b-text {
-  margin-top: 10px;
-  font-family: "Futura Lt BT";
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: center;
+  .text-banner .banner-cards {
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: row;
+  }
 
-}
+  .text-banner .banner-cards .line {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .text-banner .banner-cards .banner-card {
+    margin: 20px;
+    width: 33%;
+  }
+
+  .text-banner .banner-cards .banner-card .numbers {
+    margin-top: 20px;
+    font-family: "Futura Md BT";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+
+  .text-banner .banner-cards .banner-card .b-text {
+    margin-top: 10px;
+    font-family: "Futura Lt BT";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
 }
 
 
@@ -161,15 +170,17 @@
   .showData {
     top: 120px;
   }
+
   /* Testinomials  */
-.testinomials {
-  margin: 50px 100px;
-}
-/* Banner-text  */
-.text-banner .banner-cards{
-  padding-left: 100px;
-  padding-right: 100px;
-}
+  .testinomials {
+    margin: 50px 100px;
+  }
+
+  /* Banner-text  */
+  .text-banner .banner-cards {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
 
 
@@ -209,7 +220,7 @@
   nav .languages div {
     margin-left: 10px;
   }
-  
+
   /* Collections  */
   .collections {
     margin-left: 120px;
@@ -217,19 +228,28 @@
   }
 
 
-  .collections .cards .card{
+  .collections .cards .card {
     width: 24%;
     margin-top: 10px;
   }
+
+  /* Testinomials  */
+  .testinomials {
+    margin: 50px 120px;
+  }
+
+  /* Text-banner  */
+  .text-banner .banner-cards .line {
+
+    margin-top: 30px;
+  }
+
   /* Testinomials  */
 .testinomials {
-  margin: 50px 120px;
+  margin: 100px 100px;
+  /* text-align: center; */
 }
-/* Text-banner  */
-.text-banner .banner-cards .line{
 
-  margin-top: 30px;
-}
 }
 
 
@@ -237,6 +257,7 @@
   nav ul li {
     margin-inline: 25px;
   }
+
   /*  W & B Section   */
   .w-b {
     margin: 10px 120px;
