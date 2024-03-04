@@ -104,4 +104,66 @@ dot3.addEventListener('click',()=>{
 
 });
 const exampleCarousel = new Carousel(gallaryContainer, gallaryItems);
+function autoplayDiv1(){
+    // Div 1
+    arrayItem[0] = item3;
+    arrayItem[1] = item1;
+    arrayItem[2] = item2;
+    this.arrayItem.forEach(el => {
+        el.classList.remove('gallary-item-1');
+        el.classList.remove('gallary-item-2');
+        el.classList.remove('gallary-item-3');
+    });
 
+    this.arrayItem.slice(0, 3).forEach((el, i) => {
+        el.classList.add(`gallary-item-${i + 1}`);
+    });
+    dot1.style.backgroundColor =  "#DB6720";
+    dot2.style.backgroundColor =  "#6C696B";
+    dot3.style.backgroundColor =  "#6C696B";
+}
+function autoplayDiv2(){
+    // Div 2 
+    arrayItem[0] = item1;
+    arrayItem[1] = item2;
+    arrayItem[2] = item3;
+    this.arrayItem.forEach(el => {
+        el.classList.remove('gallary-item-1');
+        el.classList.remove('gallary-item-2');
+        el.classList.remove('gallary-item-3');
+    });
+
+    this.arrayItem.slice(0, 3).forEach((el, i) => {
+        el.classList.add(`gallary-item-${i + 1}`);
+    });
+    dot2.style.backgroundColor =  "#DB6720";
+    dot1.style.backgroundColor =  "#6C696B";
+    dot3.style.backgroundColor =  "#6C696B";
+}
+
+function autoplayDiv3(){
+    // Div 3 
+    arrayItem[0] = item2;
+    arrayItem[1] = item3;
+    arrayItem[2] = item1;
+    this.arrayItem.forEach(el => {
+        el.classList.remove('gallary-item-1');
+        el.classList.remove('gallary-item-2');
+        el.classList.remove('gallary-item-3');
+    });
+
+    this.arrayItem.slice(0, 3).forEach((el, i) => {
+        el.classList.add(`gallary-item-${i + 1}`);
+    });
+    dot3.style.backgroundColor =  "#DB6720";
+    dot1.style.backgroundColor =  "#6C696B";
+    dot2.style.backgroundColor =  "#6C696B";
+}
+
+function autoplay(){
+    setTimeout(autoplayDiv1,0);
+    setTimeout(autoplayDiv2,2000);
+    setTimeout(autoplayDiv3,4000)
+}
+
+setInterval(autoplay,6000);
