@@ -283,16 +283,57 @@ nav .languages div {
 
 .gallary-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  height: 400px;
   justify-content: center;
   align-items: center;
   padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 100px;
+}
+.gallary-container .gallary-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 298px;
+  height: 336px;
+  opacity: 1;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  z-index: 0;
+  border-radius: 15px;
+  background-size: contain;
+}
+.gallary-container .gallary-item-1 {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px 0px #00000040;
+  left: 22%;
+  
+  opacity: 1;
+  transform: translateX(-50%);
+  z-index: 0;
 }
 
+.gallary-container .gallary-item-2 {
+  background: #F7F7F7;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 380px;
+  opacity: 1;
+  width: 300px;
+  z-index: 3;
+  box-shadow: -2px 5px 33px 6px rgba(0, 0, 0, 0.35);
+}
+
+.gallary-container .gallary-item-3 {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px 0px #00000040;
+  opacity: 1;
+  left: 78%;
+  transform: translateX(-50%);
+  z-index: 0;
+}
 .gallary-container .card {
   text-align: center;
-  box-shadow: 0px 0px 4px 0px #00000040;
   margin: 15px;
 }
 .gallary-container .card svg{
@@ -316,7 +357,22 @@ nav .languages div {
 .gallary-container .card .city{
   margin-top: 10px;
 }
+.dots {
+  display: flex;
+  justify-content: center;
+}
 
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #6C696B;
+  margin-inline: 10px;
+}
+
+.dot.active {
+  background: #DB6720;
+}
 
 /* text banner  */
 .text-banner {

@@ -48,9 +48,9 @@ var dot1 = document.getElementById('dot-1');
 var dot2 = document.getElementById('dot-2');
 var dot3 = document.getElementById('dot-3');
 dot1.addEventListener('click',()=>{
-    arrayItem[0] = item3;
+    arrayItem[0] = item2;
     arrayItem[1] = item1;
-    arrayItem[2] = item2;
+    arrayItem[2] = item3;
     this.arrayItem.forEach(el => {
         el.classList.remove('gallary-item-1');
         el.classList.remove('gallary-item-2');
@@ -67,9 +67,9 @@ dot1.addEventListener('click',()=>{
 
 
 dot2.addEventListener('click',()=>{
-    arrayItem[0] = item1;
+    arrayItem[0] = item3;
     arrayItem[1] = item2;
-    arrayItem[2] = item3;
+    arrayItem[2] = item1;
     this.arrayItem.forEach(el => {
         el.classList.remove('gallary-item-1');
         el.classList.remove('gallary-item-2');
@@ -86,9 +86,9 @@ dot2.addEventListener('click',()=>{
 
 
 dot3.addEventListener('click',()=>{
-    arrayItem[0] = item2;
+    arrayItem[0] = item1;
     arrayItem[1] = item3;
-    arrayItem[2] = item1;
+    arrayItem[2] = item2;
     this.arrayItem.forEach(el => {
         el.classList.remove('gallary-item-1');
         el.classList.remove('gallary-item-2');
@@ -106,9 +106,9 @@ dot3.addEventListener('click',()=>{
 const exampleCarousel = new Carousel(gallaryContainer, gallaryItems);
 function autoplayDiv1(){
     // Div 1
-    arrayItem[0] = item3;
+    arrayItem[0] = item2;
     arrayItem[1] = item1;
-    arrayItem[2] = item2;
+    arrayItem[2] = item3;
     this.arrayItem.forEach(el => {
         el.classList.remove('gallary-item-1');
         el.classList.remove('gallary-item-2');
@@ -124,9 +124,9 @@ function autoplayDiv1(){
 }
 function autoplayDiv2(){
     // Div 2 
-    arrayItem[0] = item1;
+    arrayItem[0] = item3;
     arrayItem[1] = item2;
-    arrayItem[2] = item3;
+    arrayItem[2] = item1;
     this.arrayItem.forEach(el => {
         el.classList.remove('gallary-item-1');
         el.classList.remove('gallary-item-2');
@@ -143,9 +143,9 @@ function autoplayDiv2(){
 
 function autoplayDiv3(){
     // Div 3 
-    arrayItem[0] = item2;
+    arrayItem[0] = item1;
     arrayItem[1] = item3;
-    arrayItem[2] = item1;
+    arrayItem[2] = item2;
     this.arrayItem.forEach(el => {
         el.classList.remove('gallary-item-1');
         el.classList.remove('gallary-item-2');
