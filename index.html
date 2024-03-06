@@ -9,6 +9,11 @@
   <link rel="stylesheet" href="assets/flickity/flickity.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
+  <!-- Swiper CDN  -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 
   <script src="jquery/jquery.js"></script>
 </head>
@@ -230,8 +235,6 @@
         </div>
     </div>
 </div>
-
-
  
 
   <!-- Text Banner with Icons  -->
@@ -336,6 +339,31 @@
       </div>
     </div>
   </div>
+  <!-- Video Section  -->
+  <div class="video">
+    <img src="assets/video.png" alt="">
+  </div>
+
+<!-- Caresousel 3  -->
+<h1 class="car3-heading">Discover W&B</h1>
+<div class="car3">  
+  <div class="main-carousel">
+    <div class="carousel-cell">
+      <img src="assets/c1.png" alt="slide 1">
+    </div>
+    <div class="carousel-cell">
+      <img src="assets/c2.png" alt="slide 2">
+    </div>
+    <div class="carousel-cell">
+      <img src="assets/c3.png" alt="slide 2">
+    </div>
+  </div>
+  <div class="btn">
+    <button class="button">Learn More</button>
+  </div>
+</div>
+<br><br><br><br><br><br>
+  
 
   <!-- Javascript Link  -->
   <script src="main.js"></script>
@@ -344,6 +372,16 @@
   <script>
     $(document).ready(function () {
       $('.hero .main-carousel').flickity({
+        // options
+        cellAlign: 'left',
+        wrapAround: true,
+        contain: true
+      });
+    })
+
+    // Carsousel 3 
+    $(document).ready(function () {
+      $('.car3 .main-carousel').flickity({
         // options
         cellAlign: 'left',
         wrapAround: true,
