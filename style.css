@@ -20,6 +20,11 @@
   src: url(assets/fonts/Futura_Book_font.ttf);
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url(assets/fonts/inter/Inter-Medium.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -435,18 +440,19 @@ nav .languages div {
 }
 
 /* Careousel 3  */
-.car3-heading{
+.car3-heading {
   text-align: center;
   font-family: Futura Md BT;
-font-size: 32px;
-font-weight: 400;
-line-height: 38px;
-letter-spacing: 0em;
-text-align: center;
-margin-top: 71px;
-margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 71px;
+  margin-bottom: 30px;
 
 }
+
 .car3 {
   width: 100%;
   height: auto;
@@ -480,4 +486,166 @@ margin-bottom: 30px;
   padding: 2px 10px;
   text-transform: uppercase;
   border: none;
+}
+
+
+/* Careousel 4  */
+.car4-heading {
+  font-family: Futura Md BT;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  margin-top: 71px;
+  margin-bottom: 30px;
+
+}
+
+.car4 {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.car4 .carousel-cell {
+  width: 100%;
+}
+
+.car4 .carousel-cell img {
+  width: 100%;
+  height: auto;
+}
+
+/* footer  */
+.footer {
+  background: #111111;
+  color: white;
+}
+
+.footer .menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .menu .items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.footer .menu .items .item h1 {
+  font-family: Futura Hv BT;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.footer .menu .items .item ul {
+  list-style-type: none;
+  margin-top: 8px;
+}
+
+.footer .menu .items .item ul li a {
+  text-decoration: none;
+  font-family: Futura Lt BT;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #F7F7F7;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.menu .news-letter {
+  margin-top: 15px;
+}
+
+.menu .news-letter h1 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.menu .news-letter p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 10px;
+  color: #F7F7F7;
+
+}
+
+.menu .news-letter .fellow {
+  font-family: Futura MdCn BT;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.menu .news-letter .social {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer .copy-right {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.footer .copy-right .all-icons {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.footer .copy-right .all-icons svg {
+  width: 90%;
+}
+.footer .footer-link{
+  margin-top: 15px;
+  margin: 10px auto;
+  width: 100%;
+  text-align: center;
+}
+
+.footer .footer-link ul {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  list-style-type: none;
+}
+
+.footer .footer-link ul li a {
+  font-family: Futura Lt BT;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-decoration: none;
+  color: #F7F7F7;
+}
+.footer .footer-link ul li svg{
+  margin: 0 5px;
 }
