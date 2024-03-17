@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Plus Jakarta Sans ExtraBold;
+    src: url(fonts/PlusJakartaSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Plus Jakarta Sans SemiBold;
+    src: url(fonts/PlusJakartaSans-SemiBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.announcement-bar {
+    background: #FF553C;
+
+}
+
+.announcement-bar h1 {
+    font-family: Plus Jakarta Sans ExtraBold;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+p {
+    font-family: Plus Jakarta Sans;
+    font-weight: 300;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 17px;
+}
+
+.header .logo {
+    width: 20%;
+}
+
+.header .logo img {
+    width: 100%;
+}
+
+nav ul {
+    display: none;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-top: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Plus Jakarta Sans SemiBold;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #747474;
+
+}
+
+nav ul li button {
+    background-color: white;
+    border: 1px solid #2AF0EA;
+    border-radius: 10px;
+    box-shadow: none;
+    padding: 10px 10px;
+    color: #2AF0EA;
+    font-family: Plus Jakarta Sans SemiBold;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.showData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 0;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,22 @@
+@media screen and (min-width: 990px) {
+    .menu-icon{
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        margin-top: 10px;
+    }
+    nav ul li {
+        margin-inline: 15px;
+    }
+    nav ul li a {
+         font-size: 12px;
+    }
+    .header .logo {
+        width: 10%;
+    }
+    nav ul li a button {      
+        font-size: 12px;
+    }
+
+}
